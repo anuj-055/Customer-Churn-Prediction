@@ -1,31 +1,72 @@
 # Customer-Churn-Prediction
-# 📊 Customer Churn Prediction App
+# customer-churn-prediction
+# 📊 Customer Churn Prediction Dashboard
 
-This is a **Machine Learning web application** built using **Streamlit** that predicts whether a customer is likely to **churn** or **not**.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)
+![License](https://img.shields.io/badge/License-MIT-green)
 
----
+An interactive Machine Learning dashboard that predicts whether a customer is likely to **churn** or **not** based on customer tenure and monthly charges.
 
-## 🚀 Features
-
-- Manual prediction using **slider inputs**
-- Customer churn result shown as:
-  - 🟢 Green → Customer will NOT churn
-  - 🔴 Red → Customer WILL churn
-- Shows **churn probability**
-- CSV file upload for bulk prediction
-- Graphs and charts for analysis
-- Download predicted CSV
+This project demonstrates data preprocessing, machine learning prediction, and visualization using a user-friendly **Streamlit** interface.
 
 ---
 
-## 🧠 Model Information
+## 📸 Application Screenshots
 
-- Algorithm: Random Forest Classifier
+### 🏠 Dashboard
+Main dashboard showing manual input sliders, prediction result, and charts.
+
+![Dashboard](dashboard.png)
+
+---
+
+### 🔮 Manual Churn Prediction
+Prediction result displayed with **Red (Churn)** and **Green (No Churn)** indicators.
+
+![Prediction](prediction.png)
+
+---
+
+### 📊 CSV Upload & Results
+Bulk churn prediction using CSV upload with visual charts.
+
+![CSV Results](csv_results.png)
+
+---
+
+## 🌐 Live Demo
+
+*Application:*  
+https://your-streamlit-app-link.streamlit.app/
+
+---
+
+## 🧠 Model Details
+
+- Algorithm: **Random Forest Classifier**
 - Input Features:
   - `tenure`
   - `MonthlyCharges`
 - Output:
-  - `0` → No Churn
-  - `1` → Churn
+  - `1` → Customer WILL churn
+  - `0` → Customer will NOT churn
 
-Model file used:
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+- Streamlit
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
