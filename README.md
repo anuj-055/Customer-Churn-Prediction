@@ -33,6 +33,8 @@ Prediction result displayed with **Red (Churn)** and **Green (No Churn)** indica
 Bulk churn prediction using CSV upload with visual charts.
 
 ![CSV Results](csv_results1.png)
+![CSV Results](csv_results2.png)
+
 
 ---
 
