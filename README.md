@@ -39,7 +39,7 @@ Bulk churn prediction using CSV upload with visual charts.
 ## 🌐 Live Demo
 
 *Application:*  
-https://your-streamlit-app-link.streamlit.app/
+https://customer-churn-prediction-cypvymrrt3nzmchr3awezy.streamlit.app/
 
 ---
 
