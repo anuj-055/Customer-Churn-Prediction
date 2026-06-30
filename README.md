@@ -18,22 +18,22 @@ This project demonstrates data preprocessing, machine learning prediction, and v
 ### 🏠 Dashboard
 Main dashboard showing manual input sliders, prediction result, and charts.
 
-![Dashboard](dashboard1.png)
+![Dashboard](Dashboard1.png)
 
 ---
 
 ### 🔮 Manual Churn Prediction
 Prediction result displayed with **Red (Churn)** and **Green (No Churn)** indicators.
 
-![Prediction](prediction1.png)
+![Prediction](Prediction1.png)
 
 ---
 
 ### 📊 CSV Upload & Results
 Bulk churn prediction using CSV upload with visual charts.
 
-![CSV Results](csv_results1.png)
-![CSV Results](csv_results2.png)
+![CSV Results](csv_result1.png)
+![CSV Results](csv_result2.png)
 
 
 ---
