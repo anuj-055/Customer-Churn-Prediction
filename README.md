@@ -1,5 +1,5 @@
 # Customer-Churn-Prediction
-# customer-churn-prediction
+
 # 📊 Customer Churn Prediction Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
